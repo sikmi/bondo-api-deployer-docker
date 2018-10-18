@@ -20,7 +20,7 @@ RUN set -ex \
       --no-install-recommends \
     && npm cache clean \
     && npm install n -g \
-    && n 6.1.0 \
+    && n 7.10.1 \
     && apt-get purge -y nodejs \
     && rm -rf /var/lib/apt/lists/*
 
